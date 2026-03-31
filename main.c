@@ -50,35 +50,27 @@ int main() {
 
 // Anggota 1: Konversi Suhu (Celcius ke Fahrenheit/Kelvin)
 void menuSuhu() {
-    float celcius, kelvin;
 
-    printf("\n--- KONVERSI SUHU (Celcius ke Kelvin) ---\n");
-    printf("Masukkan suhu dalam Celcius: ");
-    scanf("%f", &celcius);
-
-    kelvin = celcius + 273.15;
-
-    printf("Hasil: %.2f Kelvin\n", kelvin);
 }
 
 // Anggota 2: Konversi Jarak (Kilometer ke Meter/Centimeter)
 void menuJarak() {
-    double kilometer, meter;
 
-    // Tampilan judul
-    printf("=== Kalkulator Konversi Jarak (KM ke Meter) ===\n");
-
-    // Input dari pengguna
-    printf("Masukkan jarak dalam kilometer (km): ");
-    scanf("%lf", &kilometer);
-
-    // Proses konversi
-    meter = kilometer * 1000;
 }
 
 // Anggota 3: Konversi Berat (Kilogram ke Gram/Pons)
 void menuBerat() {
+    float kilogram, gram;
 
+    printf("=== Kalkulator Konversi Berat ===\n");
+    printf("Konversi Kilogram (kg) ke Gram (g)\n\n");
+
+    // Input
+    printf("Masukkan berat dalam kilogram: ");
+    scanf("%f", &kilogram);
+
+    // Proses konversi
+    gram = kilogram * 1000;
 }
 
 // Anggota 4: Konversi Waktu (Jam ke Menit/Detik)
