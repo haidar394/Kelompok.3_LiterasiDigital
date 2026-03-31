@@ -66,6 +66,8 @@ void menuJarak() {
 
     // Proses konversi
     meter = kilometer * 1000;
+
+    printf("Hasil: %.2f km = %.2f meter\n", kilometer, meter);
 }
 
 // Anggota 3: Konversi Berat (Kilogram ke Gram/Pons)
