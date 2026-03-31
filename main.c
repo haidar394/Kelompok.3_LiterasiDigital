@@ -50,38 +50,6 @@ int main() {
 
 // Anggota 1: Konversi Suhu (Celcius ke Fahrenheit/Kelvin)
 void menuSuhu() {
-    int pilihan;
-    float celcius, hasil;
-
-    printf("\n--- KONVERSI SUHU ---\n");
-    printf("1. Celcius ke Fahrenheit\n");
-    printf("2. Celcius ke Kelvin\n");
-    printf("3. Kembali ke Menu Utama\n");
-    printf("Pilih: ");
-    scanf("%d", &pilihan);
-
-    switch (pilihan) {
-        case 1:
-            printf("Masukkan suhu dalam Celcius: ");
-            scanf("%f", &celcius);
-            hasil = (celcius * 9/5) + 32;
-            printf("Hasil: %.2f Fahrenheit\n", hasil);
-            break;
-
-        case 2:
-            printf("Masukkan suhu dalam Celcius: ");
-            scanf("%f", &celcius);
-            hasil = celcius + 273.15;
-            printf("Hasil: %.2f Kelvin\n", hasil);
-            break;
-
-        case 3:
-            return;
-
-        default:
-            printf("Pilihan tidak valid.\n");
-    }
-}
 
 }
 
