@@ -83,5 +83,29 @@ void menuBerat() {
 
 // Anggota 4: Konversi Waktu (Jam ke Menit/Detik)
 void menuWaktu() {
+<<<<<<< HEAD
   
+=======
+    float jam, menit;
+    char ulang;
+
+    do {
+        printf("\n=== Konversi Jam ke Menit ===\n");
+
+        printf("Masukkan jumlah jam: ");
+        scanf("%f", &jam);
+
+        menit = jam * 60;
+
+        printf("Hasil: %.2f jam = %.2f menit\n", jam, menit);
+
+        printf("Ingin konversi lagi? (y/n): ");
+        scanf(" %c", &ulang);
+
+    } while (ulang == 'y' || ulang == 'Y');
+
+    printf("Program selesai.\n");
+
+    return 0;
+>>>>>>> origin/menuwaktu
 }
