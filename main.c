@@ -55,7 +55,17 @@ void menuSuhu() {
 
 // Anggota 2: Konversi Jarak (Kilometer ke Meter/Centimeter)
 void menuJarak() {
+    double kilometer, meter;
 
+    // Tampilan judul
+    printf("=== Kalkulator Konversi Jarak (KM ke Meter) ===\n");
+
+    // Input dari pengguna
+    printf("Masukkan jarak dalam kilometer (km): ");
+    scanf("%lf", &kilometer);
+
+    // Proses konversi
+    meter = kilometer * 1000;
 }
 
 // Anggota 3: Konversi Berat (Kilogram ke Gram/Pons)
