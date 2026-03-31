@@ -75,7 +75,6 @@ void menuBerat() {
     printf("Hasil: %.2f kg = %.2f gram\n", kilogram, gram);
 }
 
-}
 
 // Anggota 4: Konversi Waktu (Jam ke Menit/Detik)
 void menuWaktu() {
