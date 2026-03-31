@@ -78,7 +78,7 @@ void menuJarak() {
 
 // Anggota 3: Konversi Berat (Kilogram ke Gram/Pons)
 void menuBerat() {
-    float kilogram, gram;
+     float kilogram, gram;
 
     printf("=== Kalkulator Konversi Berat ===\n");
     printf("Konversi Kilogram (kg) ke Gram (g)\n\n");
@@ -89,6 +89,10 @@ void menuBerat() {
 
     // Proses konversi
     gram = kilogram * 1000;
+
+    printf("Hasil: %.2f kg = %.2f gram\n", kilogram, gram);
+}
+
 }
 
 // Anggota 4: Konversi Waktu (Jam ke Menit/Detik)
