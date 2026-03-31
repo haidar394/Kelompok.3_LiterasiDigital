@@ -83,11 +83,8 @@ void menuWaktu() {
 
     } while (ulang == 'y' || ulang == 'Y');
 
-<<<<<<< menuwaktu
     printf("Program selesai.\n");
 
     return 0;
-=======
     printf("Kembali ke menu utama...\n"); 
->>>>>>> local
 }
